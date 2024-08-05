@@ -1,0 +1,19 @@
+React => Open source javascript library => UI (user interface) => SPA (1 html file)
+=> JSX
+   Virtual DOM
+   Components (functional based component / class based compoent)
+   Simple in debugging
+   Performance
+   One-way data binding (props)
+
+
+=> PROPS : pass data only (no modifications : READ ONLY )
+ + STATE : Dynamic object that contains the main data (modifiable) => Class based component (avant 2019)
+ => (apres 2019) state functional based component (hooks)
+
+ ---------------------- MOST USED FUNCTIONS IN ARRAY OF PRODUCTS / USERS / CARDS  --------------------------
+
+recherche : text value in state linked to the input (value / onChange) +  filter (dans le map)
+modification d'un element : id d'element + state + map ( el => if (id == clickedid) {{modification d'element}} else {element sans modification})
+supression d'element : id d'element + state + filter
+ajout d'element : [state + spreading + noveau element]
